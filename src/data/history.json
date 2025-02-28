@@ -1,0 +1,51 @@
+[
+    {
+      "role": "Assistant Lecturer",
+      "organisation": "Acme College of Engineering",
+      "startDate": "Dec, 2021",
+      "endDate": "July 2022nt",
+      "experiences": ["Delivered lectures on subjects like Computer Fundamentals and Internet Technology",
+      	"Conducted lab and obliging in project work related to these subjects",
+      "Trained students with Microsoft Office Tools and Cisco Packet Tracer"
+      ],
+      "imageSrc": "history/acme.png"
+    },
+    {
+      "role": "Internship",
+      "organisation": "BloomED",
+      "startDate": "Sep, 2021",
+      "endDate": "Dec, 2021",
+      "experiences": ["Created animations using Manim for a Python library used for math animation",
+                      "Continuous collaboration with the team",
+                        "Applied for this internship to contribute to a project aimed at creating interactive and engaging animated reading materials for school students, driven by a strong interest in leveraging technology to improve education"],
+      "imageSrc": "history/bloom.jpg"
+    },
+    {
+      "role": "Vice-President",
+      "organisation": "(ACES) Association of Computer Engineering ",
+      "startDate": "Jul, 2018 ",
+      "endDate": "Aug 2019",
+      "experiences": [
+        "Co-ordinated with the president and other team members",
+        "Organized events like Hackathon, Web Development Competition",
+        "Managed budgets and estimated costs for events, ensuring efficient use of resources.",
+        "Oversaw event management tasks, from planning to execution, to ensure successful outcomes."
+
+      ],
+      "imageSrc": "history/aces.png"
+    }
+
+    {
+        "role": "Troop-Leader",
+        "organisation": "Nepal Scouts ",
+        "startDate": "Apr, 2009  ",
+        "endDate": "Apr, 2011",
+        "experiences": [
+          "Led and mentored a school scout troop, organizing activities and guiding troop members in personal and team development.",
+          "Volunteered in various community programs and festivals, contributing to local engagement and service.",
+          "Developed and implemented educational and recreational programs for youth, fostering teamwork and community spirit."
+  
+        ],
+        "imageSrc": "history/scout.png"
+      }
+  ]

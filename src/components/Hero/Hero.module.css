@@ -1,4 +1,4 @@
-@import "../../../vars.css";
+@import "../../vars.css";
 
 .container{
     position: relative;
@@ -43,3 +43,58 @@
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba;
 }
+.heroImg{
+    width: 50%;
+    z-index: 1;
+    animation-name: floating;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0, 0px);
+    }
+
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
+.topBlur{
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128 px;
+    left: 10vw;
+    border-radius: 764px;
+    background: rgba(25,25,109,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.buttomBlur{
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 250px;
+    top: 246 px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25,25,109,0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+@media screen and (max-width: 830px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
+    }
+}
+
