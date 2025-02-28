@@ -5,7 +5,7 @@
       "startDate": "Dec, 2021",
       "endDate": "July 2022nt",
       "experiences": ["Delivered lectures on subjects like Computer Fundamentals and Internet Technology",
-      	"Conducted lab and obliging in project work related to these subjects",
+      	"Conducted lab",
       "Trained students with Microsoft Office Tools and Cisco Packet Tracer"
       ],
       "imageSrc": "history/acme.png"
@@ -33,7 +33,7 @@
 
       ],
       "imageSrc": "history/aces.png"
-    }
+    },
 
     {
         "role": "Troop-Leader",
@@ -47,5 +47,5 @@
   
         ],
         "imageSrc": "history/scout.png"
-      }
+    }
   ]
