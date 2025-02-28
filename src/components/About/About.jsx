@@ -45,6 +45,27 @@ export const About = () => {
           </li>
         </ul>
       </div>
+      <div className={styles.blogContainer}>
+        <h1>My Blog</h1>
+        <article>
+          <h2>Journey as a Developer</h2>
+          <p>
+            Sharing my experiences, challenges, and solutions encountered during
+            my development journey.
+          </p>
+          <span>
+            <a href="#">Expand</a>
+          </span>
+        </article>
+        <article>
+          <h2>Lessions Learned?</h2>
+          <p>A summary of what I learned from these projects.</p>
+          <span>
+            <a href="#">Expand</a>
+          </span>
+        </article>
+      </div>
     </section>
+
   );
 };
