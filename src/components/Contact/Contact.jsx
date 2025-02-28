@@ -75,15 +75,15 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:rabinapanta78@email.com">myemail@email.com</a>
+          <a href="mailto:rabinapanta78@email.com">rabinapanta78@email.com</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" />
-          <a href="www.linkedin.com/in/rabinapanta">linkedin.com/rabina</a>
+          <a href="https://www.linkedin.com/in/rabinapanta">linkedin.com/rabina</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://www.github.com/myname">github.com/rabinapanta</a>
         </li>
       </ul>
     </footer>
